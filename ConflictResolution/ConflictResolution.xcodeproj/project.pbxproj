@@ -14,6 +14,8 @@
 		04AFEAF62400807C00C46764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEAF52400807C00C46764 /* Assets.xcassets */; };
 		04AFEAF92400807C00C46764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEAF72400807C00C46764 /* LaunchScreen.storyboard */; };
 		04AFEB042400827000C46764 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEB022400827000C46764 /* LoginViewController.swift */; };
+		04AFEB0824008D6900C46764 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEB0624008D6900C46764 /* MainViewController.swift */; };
+		04AFEB0924008D6900C46764 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEB0724008D6900C46764 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		04AFEAF82400807C00C46764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AFEAFA2400807C00C46764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AFEB022400827000C46764 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04AFEB0624008D6900C46764 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04AFEB0724008D6900C46764 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				04AFEAEC2400807A00C46764 /* AppDelegate.swift */,
 				04AFEAEE2400807A00C46764 /* SceneDelegate.swift */,
 				04AFEAF02400807A00C46764 /* ViewController.swift */,
+				04AFEB0624008D6900C46764 /* MainViewController.swift */,
+				04AFEB0724008D6900C46764 /* MainViewController.xib */,
 				04AFEAF22400807A00C46764 /* Main.storyboard */,
 				04AFEB022400827000C46764 /* LoginViewController.swift */,
 				04AFEAF52400807C00C46764 /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 				04AFEAF92400807C00C46764 /* LaunchScreen.storyboard in Resources */,
 				04AFEAF62400807C00C46764 /* Assets.xcassets in Resources */,
 				04AFEAF42400807A00C46764 /* Main.storyboard in Resources */,
+				04AFEB0924008D6900C46764 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +152,7 @@
 				04AFEAF12400807A00C46764 /* ViewController.swift in Sources */,
 				04AFEAED2400807A00C46764 /* AppDelegate.swift in Sources */,
 				04AFEAEF2400807A00C46764 /* SceneDelegate.swift in Sources */,
+				04AFEB0824008D6900C46764 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
