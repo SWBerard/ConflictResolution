@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="MXl-RJ-fSx" kind="show" id="6cT-R7-0vf"/>
+                                    <action selector="userTappedOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zfc-7B-wOL"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xi6-TU-eeK">
@@ -58,22 +58,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="141" y="139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="rHS-Tt-dqf">
-            <objects>
-                <viewController id="MXl-RJ-fSx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OIR-Cj-0V9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="bAL-RZ-CBr"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="sba-a5-R2u"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mAy-HD-8xy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1046" y="177"/>
         </scene>
     </scenes>
 </document>

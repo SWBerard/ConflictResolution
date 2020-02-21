@@ -15,10 +15,17 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
     
     @IBAction func userTappedSignUpButton(_ sender: Any) {
         let signUpVC = SignUpViewController()
         present(signUpVC, animated: true, completion: nil)
+    }
+        
+    @IBAction func userTappedOnButton(_ sender: Any) {
+        view.isUserInteractionEnabled = false
+        let mainVC = MainViewController(userId: "klsdjfklsjd")
+        present(mainVC, animated: true) {
+            self.view.isUserInteractionEnabled = true
+        }
     }
 }
